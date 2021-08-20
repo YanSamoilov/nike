@@ -1,0 +1,16 @@
+.products__swiper-button {
+  width: 40px;
+  height: 40px;
+  background-color: #0A0A0A;
+  border-radius: 100px;
+
+  &.swiper-button-prev::after {
+    background: no-repeat center url('../images/arrow-left.svg');
+    color: transparent;
+  }
+
+  &.swiper-button-next::after {
+    background: no-repeat center url('../images/arrow-right.svg');
+    color: transparent;
+  }
+}
