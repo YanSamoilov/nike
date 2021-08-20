@@ -1,0 +1,35 @@
+@mixin titleLarge {
+  font-family: 'Golos', 'Arial', sans-serif;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 1.25;
+}
+
+@mixin titleLargeMobile {
+  font-family: 'Golos', 'Arial', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.25;
+}
+
+@mixin text {
+  font-family: 'Golos', 'Arial', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@mixin resetList {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+@mixin placeholderEmail {
+  font-family: 'Golos', 'Arial', sans-serif;
+  font-weight: 500;
+  color: #000;
+  font-size: 16px;
+  line-height: 1.5;
+  opacity: .7;
+}

@@ -1,0 +1,12 @@
+.header__title {
+  @include titleLarge;
+  max-width: 460px;
+  margin: 0;
+  color: #0A0A0A;;
+  text-transform: uppercase;
+
+  @media screen and (max-width: 768px){
+    max-width: 544px;
+    font-size: calc(32px + (64 - 32) * ((100vw - 320px) / (767 - 320)));
+  }
+}

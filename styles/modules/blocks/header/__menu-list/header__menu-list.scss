@@ -1,0 +1,11 @@
+.header__menu-list {
+  margin-bottom: 80px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  @media screen and (max-width: 767px){
+    margin-bottom: calc(40px + (80 - 40) * ((100vw - 320px) / (767 - 320)));
+  }
+}

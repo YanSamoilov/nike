@@ -1,0 +1,16 @@
+.header {
+  max-width: 1440px;
+  box-sizing: border-box;
+  padding: 52px 0 442px 20px;
+  background: center / cover no-repeat url('../images/header.png');
+
+  @media screen and (max-width: 768px){
+    padding-bottom: 482px;
+  }
+
+  @media screen and (max-width: 767px){
+    padding-bottom: calc(196px + (482 - 196) * ((100vw - 320px) / (767 - 320)));
+    padding-top: 26px;
+    padding-left: 22px;
+  }
+}

@@ -1,0 +1,49 @@
+@import '../vendor/normalize.css';
+@import '../vendor/fonts.css';
+@import '../styles/modules/mixins.scss';
+
+@import './modules/blocks/section-title/section-title.scss';
+
+//Page
+@import './modules/blocks/page/page.scss';
+@import './modules/blocks/page/__section/page__section.scss';
+@import './modules/blocks/page/_menu-active/page_menu-active.scss';
+//Header
+@import './modules/blocks/header/header.scss';
+@import './modules/blocks/header/__title/header__title.scss';
+@import './modules/blocks/header/__burger-icon/header__burger-icon.scss';
+@import './modules/blocks/header/__burger-line/header__burger-line.scss';
+@import './modules/blocks/header/__burger-line/_active/header__burger-line_active.scss';
+@import './modules/blocks/header/__burger-icon/_active/header__burger-icon_active.scss';
+@import './modules/blocks/header/__menu/header__menu.scss';
+@import './modules/blocks/header/__menu-link/header__menu-link.scss';
+@import './modules/blocks/header/__burger-body/header__burger-body.scss';
+@import './modules/blocks/header/__burger-body/_active/header__burger-body_active.scss';
+@import './modules/blocks/header/__menu-list/header__menu-list.scss';
+//About
+@import './modules/blocks/about/about.scss';
+@import './modules/blocks/about/__title/about__title.scss';
+@import './modules/blocks/about/__text/about__text.scss';
+@import './modules/blocks/about/__text-container/about__text-container.scss';
+@import './modules/blocks/about/__main-image/about__main-image.scss';
+@import './modules/blocks/about/__training-container/about__training-container.scss';
+@import './modules/blocks/about/__training/about__training.scss';
+@import './modules/blocks/about/__text-training/about__text-training.scss';
+//Products
+@import './modules/blocks/products/products.scss';
+@import './modules/blocks/products/__title/products__title.scss';
+@import './modules/blocks/products/__swiper-image/products__swiper-image.scss';
+@import './modules/blocks/products/__button/products__button.scss';
+@import './modules/blocks/products/__slide/products__slide.scss';
+@import './modules/blocks/products/__swiper-pagination/products__swiper-pagination.scss';
+//Before-end
+@import './modules/blocks/before-end/before-end.scss';
+@import './modules/blocks/before-end/__text/before-end__text.scss';
+@import './modules/blocks/before-end/__image/before-end__image.scss';
+//Footer
+@import './modules/blocks/footer/footer.scss';
+@import './modules/blocks/footer/__title/footer__title.scss';
+@import './modules/blocks/footer/__text/footer__text.scss';
+@import './modules/blocks/footer/__input-email/footer__input-email.scss';
+@import './modules/blocks/footer/__email-submit/footer__email-submit.scss';
+@import './modules/blocks/footer/__email-form/footer__email-form.scss';
