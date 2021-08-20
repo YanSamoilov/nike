@@ -1,0 +1,45 @@
+.footer__input-email {
+  font-family: 'Golos', 'Arial', sans-serif;
+  width: 278px;
+  height: 40px;
+  background-color: #FFF;
+  border-radius: 100px;
+  font-weight: 500;
+  color: #222222;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.5;
+  border: none;
+  text-align: center;
+  transition: all .2s;
+  opacity: .8;
+  padding: 0;
+  margin: 0 10px 40px 0;
+
+  &:hover {
+    opacity: 1;
+    color: #151515;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &::-moz-placeholder {
+    @include placeholderEmail;
+  }
+  &::-ms-input-placeholder {
+    @include placeholderEmail;
+  }
+  &::-webkit-input-placeholder {
+    @include placeholderEmail;
+  }
+
+  &::placeholder {
+    @include placeholderEmail;
+  }
+
+  @media screen and (max-width: 767px){
+    margin: 0 0 10px;
+  }
+}

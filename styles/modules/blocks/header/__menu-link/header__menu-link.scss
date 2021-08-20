@@ -1,0 +1,21 @@
+.header__menu-link {
+  @include titleLargeMobile;
+  text-decoration: none;
+  color: #FFF;
+  text-transform: uppercase;
+  transition: all .2s linear;
+
+  &:hover {
+    opacity: .5;
+  }
+
+  @media screen and (max-width: 1440px){
+    font-size: calc(24px + (32 - 24) * ((100vw - 768px) / (1440 - 768)));
+    line-height: 1.33;
+  }
+
+  @media screen and (max-width: 767px){
+    font-size: calc(20px + (24 - 20) * ((100vw - 320px) / (768 - 320)));
+    line-height: 1.4;
+  }
+}

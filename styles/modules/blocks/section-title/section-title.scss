@@ -1,0 +1,11 @@
+.section-title {
+  @include titleLarge;
+  text-transform: uppercase;
+  color: #FFF;
+  text-align: center;
+  margin: 0;
+
+  @media screen and (max-width: 767px){
+    font-size: calc(32px + (64 - 32) * (100vw - 320px) / (768 - 320));
+  }
+}

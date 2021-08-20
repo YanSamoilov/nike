@@ -1,0 +1,16 @@
+.products__swiper-pagination {
+  position: relative;
+  height: 4px;
+  max-width: 1400px;
+  background-color: #292929;
+  margin: 40px auto 80px;
+
+  .swiper-pagination-progressbar-fill {
+    background: #FFF;
+  }
+
+  @media screen and (max-width: 767px){
+    margin-top: calc(20px + (40 - 20) * (100vw - 320px) / (767 - 320));
+    margin-bottom: calc(40px + (80 - 40) * (100vw - 320px) / (767 - 320));
+  }
+}

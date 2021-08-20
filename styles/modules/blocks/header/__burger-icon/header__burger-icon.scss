@@ -1,0 +1,41 @@
+.header__burger-icon {
+  display: block;
+  cursor: pointer;
+  width: 40px;
+  height: 20px;
+  position: relative;
+  margin-bottom: 132px;
+  z-index: 15;
+  transition: all .2s linear;
+
+  &:hover {
+    opacity: .5;
+  }
+
+  &::before, &::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #0A0A0A;
+    left: 0;
+    transition: all .2s linear;
+  }
+
+  &::before {
+    top: 0;
+  }
+
+  &::after {
+    bottom: 1px;
+  }
+
+  @media screen and (max-width: 1440px){
+    margin-bottom: calc(92px + (132 - 92) * ((100vw - 768px) / (1440 - 768)));
+  }
+
+  @media screen and (max-width: 767px){
+    margin-bottom: calc(46px + (92 - 46) * ((100vw - 320px) / (767 - 320)));
+    width: calc(20px + (40 - 20) * ((100vw - 320px) / (767 - 320)));
+  }
+}

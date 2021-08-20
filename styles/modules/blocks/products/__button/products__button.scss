@@ -1,0 +1,24 @@
+.products__button {
+  margin: 0;
+  padding: 0;
+  color: #FFF;
+  background-color: #0A0A0A;
+  border: none;
+  width: 116px;
+  height: 40px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  transition: all .2s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  @media screen and (max-width: 767px){
+    width: 280px;
+  }
+}

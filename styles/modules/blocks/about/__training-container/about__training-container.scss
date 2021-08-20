@@ -1,0 +1,12 @@
+.about__training-container {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 80px 20px 0;
+  justify-content: space-between;
+
+  @media screen and (max-width: 655px){
+    padding: 40px 20px 0;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,15 @@
+.about__text-container {
+  width: 100%;
+  padding: 0 20px 80px;
+  box-sizing: border-box;
+  background: no-repeat right top url('../images/aboutBackPC.png');
+
+  @media screen and (max-width: 1185px){
+    background: no-repeat right top url('../images/aboutBackTablet.png');
+  }
+
+  @media screen and (max-width: 655px){
+    background: no-repeat bottom center content-box url('../images/aboutBackMobile.png');
+    padding-bottom: 40px;
+  }
+}
