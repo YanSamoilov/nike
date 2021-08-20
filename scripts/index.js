@@ -1,6 +1,10 @@
 
 initProductsSlides(productsList);
 new Swiper('#products-swiper-container', {
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  },
   slidesPerView: 4.5,
   loop: true,
   pagination: {
